@@ -50,7 +50,7 @@ The app features a dark-themed UI, an intuitive code editor, and smooth animatio
 
 * Choose a level and read the challenge description.
 * Write code in the embedded CodeMirror editor.
-* Click Run to test your solution and receive instant feedback.
+* Click Check Solution to test your solution and receive instant feedback.
 * Progress through more advanced levels as you improve!
 
 # 🎨 UI Preview
