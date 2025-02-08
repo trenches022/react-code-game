@@ -4,7 +4,7 @@ import useStore from '../store/useStore';
 
 const Profile = () => {
 
-  const { userXp, completedLevels } = useStore();
+  const { userXp, userLevel, completedLevels } = useStore();
   const [username, setUsername] = useState("Player");
 
   return (
@@ -19,6 +19,7 @@ const Profile = () => {
           className="username-input"
         />
         <p>XP: {userXp}</p>
+        <p>User`s level: {userLevel}</p>
         <p>Completed Levels: {completedLevels.length}</p>
       </div>
     </div>
