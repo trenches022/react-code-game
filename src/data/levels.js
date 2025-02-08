@@ -79,6 +79,22 @@ const levels = [
     solution: "function mergeObjects(obj1, obj2) { return {...obj1, ...obj2}; }",
     hints: ["Use the spread operator `...` to merge objects."],
   },
+  {
+    id: 11,
+    title: 'Array Filtering',
+    description: 'Write a function `filterEvenNumbers` that filters out even numbers from an array.',
+    initialCode: 'function filterEvenNumbers(arr) {\n  // Your code\n}',
+    solution: "function filterEvenNumbers(arr) { return arr.filter(num => num % 2 === 0); }",
+    hints: ["Use the `.filter()` method to filter out elements."],
+  },
+  {
+    id: 12,
+    title: 'Array Reduce',
+    description: 'Write a function `findMax` that finds the maximum number in an array using `.reduce()` method.',
+    initialCode: 'function findMax(arr) {\n  // Your code\n}',
+    solution: "function findMax(arr) { return arr.reduce((max, num) => num > max ? num : max, arr[0]); }",
+    hints: ["Use `.reduce()` to iterate through the array and find the maximum value."],
+  },
 ];
 
 export default levels;
