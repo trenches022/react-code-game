@@ -104,6 +104,30 @@ const levels: Level[] = [
     solution: "function findMax(arr) { return arr.reduce((max, num) => num > max ? num : max, arr[0]); }",
     hints: ["Use `.reduce()` to iterate through the array and find the maximum value."],
   },
+  {
+    id: 13,
+    title: 'Promises',
+    description: 'Write a function `fetchData` that returns a promise which resolves with the string "Data fetched!" after 1 second.',
+    initialCode: 'function fetchData() {\n  // Your code\n}',
+    solution: "function fetchData() { return new Promise((resolve) => setTimeout(() => resolve('Data fetched!'), 1000)); }",
+    hints: ["Use `new Promise` to create a promise.", "Use `setTimeout` to delay the resolution."],
+  },
+  {
+    id: 14,
+    title: 'Async/Await',
+    description: 'Write an async function `fetchDataAsync` that waits for the `fetchData` function to resolve and then returns the result.',
+    initialCode: 'async function fetchDataAsync() {\n  // Your code\n}',
+    solution: "async function fetchDataAsync() { const result = await fetchData(); return result; }",
+    hints: ["Use `await` to wait for the promise to resolve.", "Make sure to mark the function as `async`."],
+  },
+  {
+    id: 15,
+    title: 'Error Handling',
+    description: 'Write a function `divideNumbers` that takes two numbers and returns the result of dividing the first by the second. Handle the case where the second number is zero by returning "Division by zero is not allowed".',
+    initialCode: 'function divideNumbers(a, b) {\n  // Your code\n}',
+    solution: "function divideNumbers(a, b) { if (b === 0) return 'Division by zero is not allowed'; return a / b; }",
+    hints: ["Use an `if` statement to check if the second number is zero.", "Return the result of the division if the second number is not zero."],
+  },
 ];
 
 export default levels;
