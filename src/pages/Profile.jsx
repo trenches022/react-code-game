@@ -1,11 +1,22 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../App.css';
 import useStore from '../store/useStore';
 
 const Profile = () => {
 
   const { userXp, userLevel, completedLevels } = useStore();
-  const [username, setUsername] = useState("Player");
+  const [username, setUsername] = useState("");
+
+  useEffect(() => {
+    const savedUserName = localStorage.getItem('savedUserName');
+    if (savedUserName) {
+      setUsername(savedUserName);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('savedUserName', username)
+  }, [username])
 
   return (
     <div className='profile-container'>
