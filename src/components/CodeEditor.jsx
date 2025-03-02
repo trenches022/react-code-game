@@ -9,12 +9,12 @@ import "../App.css";
 const CodeEditor = ({ level }) => {
   const navigate = useNavigate();
   const { userCode, setUserCode, completeLevel, currentLevel, totalLevels } = useStore();
-  const [code, setCode] = useState(userCode || level?.initialCode || "");
+  const [code, setCode] = useState(userCode || "");
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    setCode(level?.initialCode || "");
-    setUserCode(level?.initialCode || "");
+    setCode("");
+    setUserCode("");
   }, [level]);
 
   const handleChange = (newCode) => {
