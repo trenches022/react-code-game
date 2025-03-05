@@ -126,6 +126,46 @@ const levels: Level[] = [
     solution: "function divideNumbers(a, b) { if (b === 0) return 'Division by zero is not allowed'; return a / b }",
     hints: ["Use an `if` statement to check if the second number is zero.", "Return the result of the division if the second number is not zero."],
   },
+  {
+    id: 16,
+    title: 'Closures',
+    description: 'Write a function `createCounter` that returns a function which increments and returns a counter value starting from 0 each time it’s called.',
+    initialCode: 'function createCounter()',
+    solution: "function createCounter() { let count = 0; return function() { return count++ } }",
+    hints: ["Use a closure to maintain the `count` variable.", "Return an inner function that increments `count`."],
+  },
+  {
+    id: 17,
+    title: 'Destructuring',
+    description: 'Write a function `getCoordinates` that takes an object with `x` and `y` properties and returns them as an array `[x, y]` using destructuring.',
+    initialCode: 'function getCoordinates(obj)',
+    solution: "function getCoordinates(obj) { const { x, y } = obj; return [x, y] }",
+    hints: ["Use object destructuring to extract `x` and `y`.", "Return them in an array."],
+  },
+  {
+    id: 18,
+    title: 'Higher-Order Functions',
+    description: 'Write a function `repeatAction` that takes a number `n` and a function `action`, and calls `action` `n` times.',
+    initialCode: 'function repeatAction(n, action)',
+    solution: "function repeatAction(n, action) { for (let i = 0; i < n; i++) { action() } }",
+    hints: ["Use a loop to call the `action` function `n` times.", "The `action` parameter is a function that you need to invoke."],
+  },
+  {
+    id: 19,
+    title: 'Working with Dates',
+    description: 'Write a function `getCurrentYear` that returns the current year using the `Date` object.',
+    initialCode: 'function getCurrentYear()',
+    solution: "function getCurrentYear() { return new Date().getFullYear() }",
+    hints: ["Create a new `Date` object.", "Use the `.getFullYear()` method to get the year."],
+  },
+  {
+    id: 20,
+    title: 'Chaining Methods',
+    description: 'Write a function `processArray` that takes an array of numbers, filters out odd numbers, doubles the remaining numbers, and returns their sum.',
+    initialCode: 'function processArray(arr)',
+    solution: "function processArray(arr) { return arr.filter(num => num % 2 === 0).map(num => num * 2).reduce((sum, num) => sum + num, 0) }",
+    hints: ["Chain `.filter()`, `.map()`, and `.reduce()` methods.", "Filter even numbers, double them, and sum them up."],
+  },
 ];
 
 export default levels;
