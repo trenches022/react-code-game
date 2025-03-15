@@ -8,6 +8,7 @@ const Header = () => {
         <Link to='/'>Main</Link>
         <Link to='/levels'>Levels</Link>
         <Link to='/profile'>Profile</Link>
+        <Link to='/roadmap'>Roadmap</Link>
       </header>
     </div>
   )
