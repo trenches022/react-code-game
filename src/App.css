@@ -238,3 +238,12 @@
 .congrats-container{
   margin-top: 80px;
 }
+
+.vertical-timeline {
+  margin-top: 20px;
+}
+
+.vertical-timeline-element-date {
+  color: #facc15 !important;
+  font-weight: bold;
+}

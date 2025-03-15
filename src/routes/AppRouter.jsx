@@ -5,6 +5,8 @@ import Game from '../pages/Game';
 import Profile from "../pages/Profile";
 import Congratulations from "../pages/Congratulations";
 import Header from "../components/Header";
+import Roadmap from "../pages/Roadmap";
+import Lessons from "../pages/Lessons";
 
 
 const AppRouter = () => {
@@ -16,6 +18,8 @@ const AppRouter = () => {
         <Route path="/levels" element={<Levels /> } />
         <Route path="/game/:levelId" element={<Game /> } />
         <Route path="/profile" element={<Profile /> } />
+        <Route path="/roadmap" element={<Roadmap /> } />
+        <Route path="/lesson/:id" element={<Lessons /> } />
         <Route path="/congratulations" element={<Congratulations /> } />
       </Routes>
     </Router>

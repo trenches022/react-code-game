@@ -1,0 +1,20 @@
+.roadmap-title {
+  font-size: 28px;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.lesson-link {
+  text-decoration: none;
+}
+
+.lesson-title {
+  color: #facc15;
+  font-size: 20px;
+}
+
+.lesson-description {
+  font-size: 16px;
+  color: #fff;
+}

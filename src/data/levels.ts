@@ -20,7 +20,7 @@ const levels: Level[] = [
     title: 'Variables and Data Types',
     description: 'Declare a variable `x` and assign it the value 10.',
     solution: 'let x = 10',
-    hints: ["Use `let` or `const` to declare a variable."],
+    hints: ["Use `let` to declare a variable."],
   },
   {
     id: 3,
