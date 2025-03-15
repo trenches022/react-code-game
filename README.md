@@ -4,7 +4,7 @@ A React.js learning game that helps users improve their programming skills by so
 
 The app features a dark-themed UI, an intuitive code editor, and smooth animations for an engaging experience.
 
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot6.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot9.png)
 
 #  Key Features
 
@@ -60,6 +60,8 @@ The app features a dark-themed UI, an intuitive code editor, and smooth animatio
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot2.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot4.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot3.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot7.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot8.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot5.png)
 
 # Future Plans
