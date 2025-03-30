@@ -1,4 +1,4 @@
-import levels from "../data/levels";
+import levels from "../data/levels.ts";
 import LevelCard from "../components/LevelCard";
 import '../App.css';
 

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import levels from "../data/levels";
+import levels from "../data/levels.ts";
 import CodeEditor from "../components/CodeEditor";
 import ProgressBar from '../components/ProgressBar';
 import '../App.css';

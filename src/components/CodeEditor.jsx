@@ -13,8 +13,9 @@ const CodeEditor = ({ level }) => {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    setCode("");
-    setUserCode("");
+    const initial = level.initialCode || "";
+    setCode(initial);
+    setUserCode(initial);
   }, [level]);
 
   const handleChange = (newCode) => {
@@ -30,6 +31,9 @@ const CodeEditor = ({ level }) => {
 
     const cleanedUserCode = code.replace(/\s+/g, "").trim();
     const cleanedSolution = level.solution.replace(/\s+/g, "").trim();
+
+    console.log("Cleaned User Code:", cleanedUserCode);
+    console.log("Cleaned Solution:", cleanedSolution);
 
     if (cleanedUserCode === cleanedSolution) {
       setMessage("✅ Correct! Moving to the next level...");
