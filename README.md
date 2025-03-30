@@ -4,7 +4,7 @@ A React.js learning game that helps users improve their programming skills by so
 
 The app features a dark-themed UI, an intuitive code editor, and smooth animations for an engaging experience.
 
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot6.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot10.png)
 
 #  Key Features
 
@@ -38,6 +38,8 @@ The app features a dark-themed UI, an intuitive code editor, and smooth animatio
 
 <a href="https://fontawesome.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoAY1yvW2TRRXFVU1Hcf0h6MfFH0AXDS2Jg&s" width="23" height="23" alt="Font Awesome" /></a> Font Awesome – Icon library for UI elements
 
+<a href="https://www.npmjs.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1285630920263966721/Uk6O1QGC_400x400.jpg" width="23" height="23" alt="NPM" /></a> React Vertical Timeline - for roadmap page
+
 # React Hooks Used
 
 🌀 useState – Manages component states.
@@ -55,11 +57,13 @@ The app features a dark-themed UI, an intuitive code editor, and smooth animatio
 
 # 🎨 UI Preview
 
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot.png)
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot1.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot10.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot11.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot2.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot4.png)
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot3.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot12.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot7.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot8.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot5.png)
 
 # Future Plans
