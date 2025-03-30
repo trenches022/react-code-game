@@ -63,7 +63,7 @@ The app features a dark-themed UI, an intuitive code editor, and smooth animatio
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot4.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot12.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot7.png)
-![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot8.png)
+![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot13.png)
 ![Code Game Screenshot](https://raw.githubusercontent.com/trenches022/react-code-game/main/assets/code-game-screenshot5.png)
 
 # Future Plans
